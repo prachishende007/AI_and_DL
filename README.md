@@ -1,7 +1,7 @@
 # AI and Deep Learning Assignments
 
 Welcome to my **AI and Deep Learning Assignments** repository!  
-This repository contains my coursework, projects, and exercises related to Artificial Intelligence and Deep Learning. It showcases practical implementations, algorithms, and models that I have worked on as part of my learning journey.
+This repository contains my coursework, projects, and assignments related to Artificial Intelligence and Deep Learning. It showcases practical implementations, algorithms, and models that I have worked on as part of my learning journey.
 
 ---
 
@@ -24,4 +24,3 @@ Feel free to explore, learn, and reach out if you have any questions or suggesti
 
 ---
 
-*Happy learning!* 🚀
