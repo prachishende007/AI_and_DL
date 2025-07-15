@@ -1,6 +1,6 @@
-# AI and Deep Learning Assignments
+# AI and Deep Learning
 
-Welcome to my **AI and Deep Learning Assignments** repository!  
+Welcome to my **AI and Deep Learning** repository!  
 This repository contains my coursework, projects, and assignments related to Artificial Intelligence and Deep Learning. It showcases practical implementations, algorithms, and models that I have worked on as part of my learning journey.
 
 ---
