@@ -1,11 +1,10 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
-// Possible colors
+// colors
 const vector<string> COLORS = {"Red", "Green", "Blue"};
 
-// Adjacency map (region -> list of neighboring regions)
+// Adjacency map 
 unordered_map<string, vector<string>> adjacency = {
     {"WA", {"NT", "SA"}},
     {"NT", {"WA", "SA", "Q"}},
@@ -13,13 +12,12 @@ unordered_map<string, vector<string>> adjacency = {
     {"Q", {"NT", "SA", "NSW"}},
     {"NSW", {"Q", "SA", "V"}},
     {"V", {"SA", "NSW"}},
-    {"T", {}}  // Tasmania has no neighbors
+    {"T", {}}  
 };
 
-// Assignment map: region -> color
+
 unordered_map<string, string> assignment;
 
-// Check if current color assignment is valid for region
 bool isValid(const string& region, const string& color) {
     for (const string& neighbor : adjacency[region]) {
         if (assignment.count(neighbor) && assignment[neighbor] == color) {
@@ -66,4 +64,5 @@ int main() {
 
     return 0;
 }
+
 
